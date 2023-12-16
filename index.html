@@ -1,465 +1,77 @@
-<!DOCTYPE html>
+
+<!DOCTYPR html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landtwister.in</title>
+        <title>Birthday Gift - CodeMasala</title>
+        
+        <!-- Link CSS Style.css file-->
+        
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
     </head>
     <body>
-        <div class="row" id="top_border">
-            <div class="divlogo">RERA & GMADA Approved.</div>
-            <div class="phone">Ph : +91 8288022030 | Email :
-                info@landtwisters.com</div>
+        <div class='moon'>
+            <div class='crater1'></div>
+            <div class='crater2'></div>
+            <div class='crater3'></div>
         </div>
-        <!--------------------------- navbar ----------------------------------->
-        <div class="row" id="navbar">
-            <div class="nav1"><img src="img/logo.png" alt="image not found"
-                    height="50vh" width="35%"></div>
-            <div class="nav2">
-
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li class="dropdown">
-                        <a href="# " class="dropbtn">About <img
-                                src="img/down-arrow.png" height="10vh"></a>
-                        <div class="dropdown-content">
-                            <a href="#">Company Profile</a>
-                            <a href="#">Our Managing Director</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Our Services <img
-                                src="img/down-arrow.png" height="10vh"></a>
-                        <div class="dropdown-content">
-                            <a href="#">Buy</a>
-                            <a href="#">Sell</a>
-                            <a href="#">Invest</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Properties <img
-                                src="img/down-arrow.png" height="10vh"></a>
-                        <div class="dropdown-content">
-                            <a href="#">commercial / Retail</a>
-                            <a href="#">Residencial</a>
-                            <a href="#">Land</a>
-                            <a href="#">Warehouse</a>
-                        </div>
-                    </li>
-
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <button class="btn1"> <i class="fa fa-sign-in"></i> Login</button>
-                </ul>
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="sea"></div>
+        <div id="beach"></div>
+        
+        <img src="https://dl.dropbox.com/s/2k0mtrxc2dqurmh/jumping.png" alt="Jumping-people" id="people" />
+        
+        <div id="merrywrap" class="merrywrap">
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                
+                <div class="box"></div>
             </div>
-        </div>
-        <!------------------------------------ main page ---------------------------------->
-        <section class="main_page">
-            <img src="img/main-bg.jpeg" width="100%">
-        </section>
-        <!------------------------------- 2nd page about section ----------------------------->
-        <section id="about">
-            <div class="row">
-                <div class="leftdiv">
-                    <h1>Our <span>Customer</span> Speaks</h1>
-                    <p>
-                        At Land Twisters, our valued customers are our top
-                        priority.
-                        We take pride in delivering exceptional service and
-                        helping them
-                        find their dream properties. But don't just take our
-                        word for it—our
-                        customers have spoken! From first-time homebuyers to
-                        seasoned investors,
-                        our customers appreciate our dedication to understanding
-                        their unique needs
-                        and providing personalized solutions. Their testimonials
-                        serve
-                        as a testament to the trust they have in Land Twisters,
-                        making us their go-to destination for all their real
-                        estate needs.
-                    </p>
-                    <button class="btn">View More&nbsp;<i class="fa fa-arrow-up"></i></button>
-                </div>
-                <div class="rightdiv">
-                    <div class="row">
-                        <iframe class="video1"
-                            src="https://www.youtube.com/embed/ZycK-Dw7Dk4?si=J5HmLMRGEkEoaQQ1"
-                            frameborder="1"></iframe>
-                        <iframe class="video2"
-                            src="https://www.youtube.com/embed/QwStfKC2Dew?si=2uib7uw5ZVElW6Uc"
-                            frameborder="1"></iframe>
-                        <iframe class="video3"
-                            src="https://www.youtube.com/embed/utSvq5v7uHo?si=KRy99bQmHrdIY1z2"
-                            frameborder="1"></iframe>
-                        <iframe class="video4"
-                            src="https://www.youtube.com/embed/WsRp_MDG1mA?si=K9fm8lAIGpZmfBsT"
-                            frameborder="1"></iframe>
-                        <iframe class="video5"
-                            src="https://www.youtube.com/embed/D69VhdRNok0?si=7Z3_TN9FTXdABrJ6"
-                            frameborder="1"></iframe>
-                        <iframe class="video6"
-                            src="https://www.youtube.com/embed/1r67W4-rk_k?si=wAc-UycsSdyfs0Nl"
-                            frameborder="1"></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- --------------------------------testimonial------------------------- -->
-        <section class="testimonial">
-            <h2>Our <span>Happy Customers</span> Receiving Home Keys</h2>
-        </div>
-        <div class="row" id="tml">
-            <div class="slider">
-                <div class="slide-track">
-
-                    <div class="slide">
-                        <img src="img/1.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/2.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/3.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/4.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/5.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/6.jpg" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/7.jpg" alt>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------------------------------------- our section----------------------- -->
-        <section class="our-page">
-            <div class="row">
-                <div class="rightdiv">
-                    <div class="row">
-                        <iframe class="video1"
-                            src="https://www.youtube.com/embed/rrhiFM6CvMk"
-                            frameborder="0"></iframe>
-                        <iframe class="video2"
-                            src="https://www.youtube.com/embed/2nLQIkevwaw"
-                            frameborder="0"></iframe>
-                        <iframe class="video3"
-                            src="https://www.youtube.com/embed/E3Bx-l1DOws"
-                            frameborder="0"></iframe>
-                        <iframe class="video4"
-                            src="https://www.youtube.com/embed/KMO1Bfwd3SU"
-                            frameborder="0"></iframe>
-                        <iframe class="video5"
-                            src="https://www.youtube.com/embed/J-FkR8L2X5E"
-                            frameborder="0"></iframe>
-                        <iframe class="video6"
-                            src="https://www.youtube.com/embed/S2kymv60ndQ"
-                            frameborder="0"></iframe>
-                    </div>
-                </div>
-                <div class="leftdiv">
-                    <h1>Our <span>Employee</span> Speaks</h1>
-                    <p>
-                        At Land Twisters, our valued customers are our top
-                        priority.
-                        We take pride in delivering exceptional service and
-                        helping them
-                        find their dream properties. But don't just take our
-                        word for it—our
-                        customers have spoken! From first-time homebuyers to
-                        seasoned investors,
-                        our customers appreciate our dedication to understanding
-                        their unique needs
-                        and providing personalized solutions. Their testimonials
-                        serve
-                        as a testament to the trust they have in Land Twisters,
-                        making us their go-to destination for all their real
-                        estate needs.
-                    </p>
-                    <button class="btn">View More <i class="fa fa-arrow-up"></i></button>
-                </div>
-            </div>
-        </section>
-        <!------------------------------------ card Properties ---------------------------------------->
-        <section>
-            <div class="card1" style="margin-top: 30px; text-align: center;">
-                <h2>Discover <span>Popular</span> Properties</h2>
-                <p>Discover the key to unlocking your dream house at
-                    LandTwisters, where possibilities become reality.</p>
-            </div>
-            <div class="box11">
-                <div class="card">
-                    <span>
-                        <h6><b>3 BHK flat in Sec. 127, Mohali</b></h6>
-                        <h6>Sec. 127, Mohali</h6>
-                    </span>
-                    <span class="nrs"> &#8377; 3990000</span>
-                </div>
-            </div>
-            <div class="box22">
-                <div class="card">
-                    <span>
-                        <h6><b>2 bhk flat in Sec. 115, Mohali</b></h6>
-                        <h6>2 bhk flat in Sec. 115, Mohali</h6>
-                    </span>
-                    <span class="nrs"> &#8377; 4190000</span>
-                </div>
-            </div>
-
-            <div class="view-more">
-                <div class="btn">View More <i class="fa fa-arrow-up"></i></div>
-            </div>
-        </section>
-        <!------------------------------------- banner -------------------------------------------------->
-        <section class="banner">
-            <div class="leftDiv">
-                <h3>Let’s Find The Right<br />
-                    Selling Option For You</h3>
-
-                <div class="leftside">
-                    <img src="img/security.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Property Management</b></h5>
-                    <p>Efficiently managing properties with expertise and care,<br />
-                        LandTwisters.com is your trusted partner for seamless<br />
-                        property management solutions</p>
-                </div>
-                <div class="leftside">
-                    <img src="img/key-solid.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Verification of Property Papers</b></h5>
-                    <p>Ensuring peace of mind through meticulous verification<br />
-                        of property papers, securing your investment with<br />
-                        trust and transparency.</p>
-                </div>
-                <div class="leftside">
-                    <img src="img/invest.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Loan Facility</b></h5>
-                    <p>Unlock your dreams with our flexible loan facility,<br />
-                        tailored to make your financial aspirations a reality.</p>
-                </div>
-                <div class="leftside">
-                    <img src="img/protect.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Registration Service</b></h5>
-                    <p>Simplifying your journey with hassle-free registration
-                        services.</p>
-                </div>
-                <div class="leftside">
-                    <img src="img/home.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Renting</b></h5>
-                    <p>Unlock limitless possibilities by renting your dream<br />
-                        property through LandTwisters - where every door holds<br />
-                        the key to a new adventure</p>
-                </div>
-                <div class="leftside">
-                    <img src="img/discovery.png" width="30px" height="30px">
-                </div>
-                <div class="rightside">
-                    <h5><b>Vastu</b></h5>
-                    <p>Unlock the harmonious flow of energy and experience<br />
-                        the power of Vastu in every corner of your space<br />
-                        with LandTwisters.</p>
-                </div>
-                <div class="btm11">
-                    <button class="btn12">View More <i class="fa fa-arrow-up"></i></button>
-                </div>
-
-            </div>
-
-            <div class="rightDiv">
-            </div>
-
-        </section>
-        <!----------------------------------- slider  ------------------------------->
-        <section class="our-page">
-            <div class="our">
-                <h2><b>Our <span>Trusted</span> Partners</b></h2>
-            </div>
-
-            <div class="slider">
-                <div class="slide-track">
-
-                    <div class="slide">
-                        <img src="img/logo1.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo2.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo3.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo4.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo1.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo2.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo3.png" alt>
-                    </div>
-                    <div class="slide">
-                        <img src="img/logo4.png" alt>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--------------------------------------- our blog ------------------------------------->
-        <section class="blog">
-            <div class="blog1">
-                <h2><b>From Our <span>Blog</span></b></h2>
-            </div>
-
-            <div class="box-a">
-                <img src="img/card1.jpg" height="300px" width="300px">
-                <div class="card11">
-                    <h6>Jun</h6>
-                    <p><b>24</b></p>
-                </div>
-                <h5>new addfgdjkslj</h5>
-            </div>
-
-            <div class="box-b">
-                <img src="img/card1.jpg" height="300px" width="300px">
-                <div class="card11">
-                    <h6>Jun</h6>
-                    <p><b>24</b></p>
-                </div>
-                <h5>flate</h5>
-            </div>
-
-            <div class="box-c">
-                <img src="img/card2.jpg" height="300px" width="300px">
-                <div class="card11">
-                    <h6>Jun</h6>
-                    <p><b>24</b></p>
-                </div>
-                <h5>The Ultimate in Luxury: Discover the Exquisite 3<br /> BHK
-                    Flat in Kharar</h5>
-            </div>
-
-            <div class="box-d">
-                <img src="img/card3.jpg" height="300px" width="300px">
-                <div class="card11">
-                    <h6>Jun</h6>
-                    <p><b>24</b></p>
-                </div>
-                <h5>Embrace Contemporary Living: Discover the<br /> Luxurious 2
-                    BHK Flat in Kharar</h5>
-            </div>
-
-            <div class="box-e">
-                <img src="img/card4.jpg" height="300px" width="300px">
-                <div class="card11">
-                    <h6>Jun</h6>
-                    <p><b>24</b></p>
-                </div>
-                <h5>Discover Tranquil Living: A Modern 1 BHK Flat in<br />
-                    Kharar</h5>
-            </div>
-
-        </section>
-        <div class="btn-blog">
-            <button class="btn12">View More <i class="fa fa-arrow-up"></i></button>
-        </div>
-        <!-- ----------------------------feedback ------------------------------------>
-        <section class="fedback">
-            <h2><b>Frequently Asked Questions</b></h2>
-            <p>If You have any questions related to real-estate you can find
-                them in related searched or you can ask us</p>
-            <div class="green">
-                <div class="divleft">
-                    <div class="boxx">
-                        <h3>Get a Free Consultation</h3>
-                        <hr
-                            style="height:2px;border-width:2px;color:gray;background-color:white;border-radius: 5px;width: 80px;margin-left: 190px;">
-                        <h6>If you have any questions, just call or email us,
-                            and we will answer you shortly.</h6>
-                        <h5>+91-9115569633</h5>
-                        <div class="btn-fed">
-                            <button class="btn13">Contact Us <i
-                                    class="fa fa-arrow-up"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="white">
-                <div class="heding">
-                    <h5>Can a home depreciate in value?<span>+</span></h5>
-                    <h5>Is an older home as good a value as a new home? <span>+</span></h5>
-                    <h5>What is a broker?<span>+</span></h5>
-                    <h5>Can I pay my own taxes and insurance?<span>+</span></h5>
-                    <h5>Is my personal information safe on Land Twisters?<span>+</span></h5>
-                </div>
-            </div>
-        </section>
-        <!---------------------------------------------------- dream page ---------------------------->
-        <section class="dmp-pg">
-            <div class="dream">
-                <h2><b>Get Your <span>Dream</span> House</b> </h2>
-                <p>Discover the key to unlocking your dream house at
-                    LandTwisters, where possibilities become reality.</p>
-                <button class="btn12">Talk to Expert <i class="fa fa-arrow-up"></i></button>
-            </div>
-        </section>
-        <!--------------------------------------------------- footer ---------------------------------------------------->
-        <section class="top-bottom">
-            <div class="footer">
+            
+            <div class="icons">
                 <div class="row">
-                    <div class="logo"><img src="img/logo.png"></div>
-                    <div class="ftr1">
-                        <h5>Address</h5>
-                        <p><b>Opposite Ansal Golf Link 2, Sector-115, <br />Landra
-                                Kharar, Sas Nagar, Chandigarh - 160055</b></p>
-                        <h5>Contact No.</h5>
-                        <p><b>+(91) 9115569633</b></p>
-                        <h5>Need Live Support?</h5>
-                        <p><b>info@landtwisters.com</b></p>
-                    </div>
-                    <div class="ftr1">
-                        <h4>Our Services</h4>
-                        <p><a href="#">Buy</a></p>
-                        <p><a href="#">Sell</a></p>
-                        <p><a href="#">Invest</a></p>
-                    </div>
-                    <div class="ftr1">
-                        <h4>Our Services</h4>
-                        <p><a href="#">Commercial / Retail</a></p>
-                        <p><a href="#">Residential</a></p>
-                        <p><a href="#">Land</a></p>
-                        <p><a href="#">Warehouse</a></p>
-                    </div>
+                    <span>H</span>
+                    <span>a</span>
+                    <span>p</span>
+                    <span>p</span>
+                    <span>y</span>
+                    
+                </div>
+                <div class="row">
+                    <span>B</span>
+                    <span>i</span>
+                    <span>r</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>d</span>
+                    <span>a</span>
+                    <span>y</span>
+                </div>
+                
+                <div class="row">
+                    <span>R</span>
+                    <span>a</span>
+                    <span>h</span>
+                    <span>u</span>
+                    <span>l</span>
+                    <span>@</span>
+                    <span>s</span>
+                    <span>i</span>
+                    <span>r</span>
                 </div>
             </div>
-            <!-- <hr style="width: 80%; color: red;height: 10px;"> -->
-
-        </section>
-        <hr style="width: 80%; margin-left: 180px;">
-        <div class="row ftr2">
-            <div class="left11">© 2023 Land Twisters - All rights reserved</div>
-            <div class="left12">Crafted with <i class="fa-solid fa-heart"></i> by <span>SpecBits</span></div>
         </div>
+        
+        <div id="video"></div>
+        
+        
+        <script src="index.js"></script>
+        
     </body>
 </html>
